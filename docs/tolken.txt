@@ -1,0 +1,4 @@
+Tolkem do chat bot: 8278818844:AAE1QqbcgifMANgTs3UJebpgvWM_s6dQDhA
+
+Tolken da api do openrouter: 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
+
