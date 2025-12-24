@@ -42,7 +42,6 @@ Thumbs.db
 # Data files (não versionar datasets grandes)
 data/raw/
 data/external/
-*.csv
 *.json
 *.parquet
 *.pkl

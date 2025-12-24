@@ -1,0 +1,322 @@
+tipo_conteudo;nome_aula;duracao_individual;id_aula
+Aula;1. Objetivo Geral da Integração da Análise de Dados na Rotina Administrativa;00:00:00;1
+Aula;2. Análise de Dados em Work Management;00:00:00;2
+Aula;3. Automação e Integração de Ferramentas na Rotina Administrativa;00:00:00;3
+Aula;4. Organização de Processos com Kanban, Timeline e Dashboards;00:00:00;4
+Aula;5. Segurança da Informação no Ambiente Administrativo;00:00:00;5
+Aula;6. Uso de Inteligência Artificial na Rotina Administrativa;00:00:00;6
+Aula;7. Gamificação e Análise de Dados na Gestão Administrativa;00:00:00;7
+Aula;8. Exercício Prático – Organização e Automação de Tarefas no Trello;00:00:00;8
+Aula;Avaliação;00:00:00;9
+Aula;1. A empresa como sistema: interdependência entre setores;00:00:00;10
+Aula;2. Dados como elo entre áreas distintas;00:00:00;11
+Aula;3. Quebra de silos e integração com TI;00:00:00;12
+Aula;4. Arquitetura de processos interligados com dados;00:00:00;13
+Aula;5. APIs, ETLs, automações e governança de dados (Slides);00:00:00;14
+Aula;6. Cultura de dados e fluidez organizacional;00:00:00;15
+Aula;Avaliação;00:00:00;16
+Aula;Introdução e Names;00:00:00;17
+Aula;Introductions;00:00:00;18
+Aula;Greetings I;00:00:00;19
+Aula;Greetings II;00:00:00;20
+Aula;Occupations I;00:00:00;21
+Aula;Occupations II;00:00:00;22
+Aula;Countries and Nationalities I;00:00:00;23
+Aula;Countries and Nationalities II;00:00:00;24
+Aula;Alphabet;00:00:00;25
+Aula;Numbers;00:00:00;26
+Aula;Telling the time;00:00:00;27
+Aula;To Be: Simple Present;00:00:00;28
+Aula;Simple Present;00:00:00;29
+Aula;[Questões] Simple Present;00:00:00;30
+Aula;Possessive Adjectives;00:00:00;31
+Aula;[Questões] Possessive Adjectives;00:00:00;32
+Aula;Numbers and Addresses;00:00:00;33
+Aula;Modal Verbs;00:00:00;34
+Aula;[Questões] Modal Verbs;00:00:00;35
+Aula;Interrogative Pronouns;00:00:00;36
+Aula;Places in Town I;00:00:00;37
+Aula;Places in Town II;00:00:00;38
+Aula;Places In Town III;00:00:00;39
+Aula;To Be: Past;00:00:00;40
+Aula;[Questões] Praticando Inglês 2;00:00:00;41
+Aula;[Questões] Praticando Inglês 3;00:00:00;42
+Aula;[Questões] Praticando Inglês 4;00:00:00;43
+Aula;[Questões] Praticando Inglês 5;00:00:00;44
+Aula;Breakfast Vocabulary;00:00:00;45
+Aula;Fruit;00:00:00;46
+Aula;Vegetable;00:00:00;47
+Aula;Family Members;00:00:00;48
+Aula;Lunch;00:00:00;49
+Aula;Occupations;00:00:00;50
+Aula;Personal Information: Dialogue;00:00:00;51
+Aula;Places in Town: Dialogue I;00:00:00;52
+Aula;Places in Town: Dialogue II;00:00:00;53
+Aula;Places in Town: Dialogue III;00:00:00;54
+Aula;Family Members: Sentences and Questions;00:00:00;55
+Aula;Daily Routines: Vocabulary;00:00:00;56
+Aula;Dialogue: Family Album;00:00:00;57
+Aula;Dialogue: Making Arrangements;00:00:00;58
+Aula;Restaurant I;00:00:00;59
+Aula;Restaurant II;00:00:00;60
+Aula;Restaurant III;00:00:00;61
+Aula;Clothes I;00:00:00;62
+Aula;Clothes II;00:00:00;63
+Aula;Clothes III;00:00:00;64
+Aula;Prepositions of Places I;00:00:00;65
+Aula;Prepositions of Place II;00:00:00;66
+Aula;School Objects I;00:00:00;67
+Aula;School Objetcs II;00:00:00;68
+Aula;Frequency Adverbs and Expressions;00:00:00;69
+Aula;Places In the house I;00:00:00;70
+Aula;Places In the house II;00:00:00;71
+Aula;In the kitchen I;00:00:00;72
+Aula;In the kitchen II;00:00:00;73
+Aula;In The Kitchen III;00:00:00;74
+Aula;In the kitchen IV;00:00:00;75
+Aula;To Have x There to Be;00:00:00;76
+Aula;How Do You Like This Kind of Movie;00:00:00;77
+Aula;How Does He Look Like I;00:00:00;78
+Aula;How Does He Look Like II;00:00:00;79
+Aula;Living Room I;00:00:00;80
+Aula;Living Room II;00:00:00;81
+Aula;In The Bathroom I;00:00:00;82
+Aula;In The Bathroom II;00:00:00;83
+Aula;In The Bathroom III;00:00:00;84
+Aula;Bedroom I;00:00:00;85
+Aula;Bedroom II;00:00:00;86
+Aula;Subject and Object Pronouns;00:00:00;87
+Aula;Parts of The Body I;00:00:00;88
+Aula;Parts of The Body II;00:00:00;89
+Aula;Parts of The Body III;00:00:00;90
+Aula;Parts of The Body IV;00:00:00;91
+Aula;Parts of The Body V;00:00:00;92
+Aula;Muitos I;00:00:00;93
+Aula;Muitos II;00:00:00;94
+Aula;Cooking Verbs I;00:00:00;95
+Aula;Cooking Verbs II;00:00:00;96
+Aula;Dialogue: How Does he Look Like;00:00:00;97
+Aula;Dialogue: Movies;00:00:00;98
+Aula;Dialogue: Where is my Backpack;00:00:00;99
+Aula;Comparativos e Superlativos: Introdução;00:00:00;100
+Aula;Comparativo de Superioridade;00:00:00;101
+Aula;Comparativo de Inferioridade;00:00:00;102
+Aula;Comparativo de Igualdade;00:00:00;103
+Aula;Superlativo de Superioridade;00:00:00;104
+Aula;Superlativo de Inferioridade;00:00:00;105
+Aula;At the Clothing Store I;00:00:00;106
+Aula;At the Clothing Store II;00:00:00;107
+Aula;Dialogue: Let's Have a Lasagna I;00:00:00;108
+Aula;Dialogue: Let's Have a Lasagna II;00:00:00;109
+Aula;Main Verbs I;00:00:00;110
+Aula;Main Verbs II;00:00:00;111
+Aula;Days of the Weeks;00:00:00;112
+Aula;Question Tags I;00:00:00;113
+Aula;Question Tags II;00:00:00;114
+Aula;Main Verbs IV;00:00:00;115
+Aula;Main Verbs V;00:00:00;116
+Aula;Main Verbs VI;00:00:00;117
+Aula;Main Verbs VII;00:00:00;118
+Aula;Main Verbs VIII;00:00:00;119
+Aula;Simple Past;00:00:00;120
+Aula;[Questões] Simple Past;00:00:00;121
+Aula;Present Continuous;00:00:00;122
+Aula;Exercises: Present Continuos;00:00:00;123
+Aula;Past Continuous;00:00:00;124
+Aula;Future Will x Going To.;00:00:00;125
+Aula;Prepositions of Time In - Out - At e Outras;00:00:00;126
+Aula;Agree and Disagree - Affirmative;00:00:00;127
+Aula;Basic Vocabulary: Cars I;00:00:00;128
+Aula;Basic Vocabulary: Cars II;00:00:00;129
+Aula;Basic Vocabulary: Cars III;00:00:00;130
+Aula;Basic Vocabulary: Cars IV;00:00:00;131
+Aula;Agree and Disagree: Negative;00:00:00;132
+Aula;Prepositions + Verb + Ing;00:00:00;133
+Aula;Car Situations I;00:00:00;134
+Aula;Car Situations II;00:00:00;135
+Aula;Car Situations III;00:00:00;136
+Aula;Car Situations IV;00:00:00;137
+Aula;Dialogue: Daily Routine;00:00:00;138
+Aula;Daily Routines;00:00:00;139
+Aula;Present Perfect;00:00:00;140
+Aula;Present Perfect x Simple Past;00:00:00;141
+Aula;Dialogue: Hotel Check In;00:00:00;142
+Aula;Hotel Check In;00:00:00;143
+Aula;Dialogue: Hotel Problems I;00:00:00;144
+Aula;Dialogue: Hotel Problems II;00:00:00;145
+Aula;Dialogue: Hotel Problems III;00:00:00;146
+Aula;Hotel Problems;00:00:00;147
+Aula;Dialogue: Hotel Check Out;00:00:00;148
+Aula;Hotel Check Out;00:00:00;149
+Aula;Airplane Vocabulary I;00:00:00;150
+Aula;Airplane Vocabulary II;00:00:00;151
+Aula;Hotel Words and Expressions I;00:00:00;152
+Aula;Hotel Words and Expressions II;00:00:00;153
+Aula;Hotel Words and Expressions III;00:00:00;154
+Aula;To Remember Me I;00:00:00;155
+Aula;To Remember Me II;00:00:00;156
+Aula;Stars Spangled Banner History;00:00:00;157
+Aula;Exercises: To be Present;00:00:00;158
+Aula;Exercises: To be Past;00:00:00;159
+Aula;Possessives;00:00:00;160
+Aula;Reflexive Pronouns;00:00:00;161
+Aula;Possessive Adjectives: Pronouns;00:00:00;162
+Aula;At the Airport I;00:00:00;163
+Aula;At the Airport II;00:00:00;164
+Aula;Stars Spangled Banner Verse I;00:00:00;165
+Aula;Stars Spangled Banner Verse II;00:00:00;166
+Aula;Stars Spangled Banner Verse III;00:00:00;167
+Aula;Stars Spangled Banner Verse IV;00:00:00;168
+Aula;Exercises: Simple Present;00:00:00;169
+Aula;Exercises: Reflexive Pronouns;00:00:00;170
+Aula;List of Irregular Verbs (A-B);00:00:00;171
+Aula;List of Irregular Verbs (B);00:00:00;172
+Aula;List of Irregular Verbs (C-D-E) I;00:00:00;173
+Aula;List of Irregular Verbs (C-D-E) II;00:00:00;174
+Aula;List of Irregular Verbs (F-G);00:00:00;175
+Aula;List of Irregular Verbs (G);00:00:00;176
+Aula;List of Irregular Verbs (H-K);00:00:00;177
+Aula;List of Irregular Verbs (L-M);00:00:00;178
+Aula;List of Irregular Verbs (M);00:00:00;179
+Aula;List of Irregular Verbs (O-P-Q);00:00:00;180
+Aula;List of Irregular Verbs (R);00:00:00;181
+Aula;List of Irregular Verbs (S) I;00:00:00;182
+Aula;List of Irregular Verbs (S) II;00:00:00;183
+Aula;List of Irregular Verbs (S) III;00:00:00;184
+Aula;List of Irregular Verbs (S) IV;00:00:00;185
+Aula;List of Irregular Verbs (T);00:00:00;186
+Aula;List of Irregular Verbs (W);00:00:00;187
+Aula;Means of Transportation I;00:00:00;188
+Aula;Means of Transportation II;00:00:00;189
+Aula;Means of Transportation III;00:00:00;190
+Aula;Means of Transportation IV;00:00:00;191
+Aula;Dialogue: At the Real Estate Agency I;00:00:00;192
+Aula;Dialogue: At the Real Estate Agency II;00:00:00;193
+Aula;Exercises: Question Tags;00:00:00;194
+Aula;Exercises: Simple Past;00:00:00;195
+Aula;Exercises: Pronomes Interrogativos;00:00:00;196
+Aula;To Do x To Make;00:00:00;197
+Aula;To Make: Aplicação Prática I;00:00:00;198
+Aula;To Make: Aplicação Prática II;00:00:00;199
+Aula;To Make: Aplicação Prática III;00:00:00;200
+Aula;To Make: Aplicação Prática IV;00:00:00;201
+Aula;To Make: Aplicação Prática V;00:00:00;202
+Aula;To Make: Aplicação Prática VI;00:00:00;203
+Aula;To Do: Aplicação Prática I;00:00:00;204
+Aula;To Do: Aplicação Prática II;00:00:00;205
+Aula;To Do: Aplicação Prática III;00:00:00;206
+Aula;Expressões com To Take I;00:00:00;207
+Aula;Expressões com To Take II;00:00:00;208
+Aula;Expressões com To Take III;00:00:00;209
+Aula;Expressões com To Take IV;00:00:00;210
+Aula;Expressões com To Take V;00:00:00;211
+Aula;Expressões com To Take VI;00:00:00;212
+Aula;Exercises: Past Continuous;00:00:00;213
+Aula;Uso Prático: To Get 1;00:00:00;214
+Aula;Uso Prático: To Get 2;00:00:00;215
+Aula;Uso Prático: To Get 3;00:00:00;216
+Aula;Uso Prático: To Get 4;00:00:00;217
+Aula;Uso Prático: To Get 5;00:00:00;218
+Aula;Uso Prático: To Get 6;00:00:00;219
+Aula;Uso Prático: To Get 7;00:00:00;220
+Aula;Uso Prático: To Get 8;00:00:00;221
+Aula;Uso Prático: To Get 9;00:00:00;222
+Aula;Phrasal Verbs - To Look 1;00:00:00;223
+Aula;Phrasal Verbs - To Look 2;00:00:00;224
+Aula;Phrasal Verbs - To Look 3;00:00:00;225
+Aula;Phrasal Verbs - To Look 4;00:00:00;226
+Aula;Expressions - To Look 1;00:00:00;227
+Aula;Expressions - To Look 2;00:00:00;228
+Aula;Expressions - To Look 3;00:00:00;229
+Aula;Expressions - To Look 4;00:00:00;230
+Aula;Expressions - To Look 5;00:00:00;231
+Aula;Expressions - To Look 6;00:00:00;232
+Aula;Expressions - To Look 7;00:00:00;233
+Aula;Expressions - To Look 8;00:00:00;234
+Aula;Dialogue: Vacation in Europe 1;00:00:00;235
+Aula;Dialogue: Vacation in Europe 2;00:00:00;236
+Aula;Dialogue: Vacation in Europe 3;00:00:00;237
+Aula;Extra Class - Passive Voice 1;00:00:00;238
+Aula;Extra Class - Passive Voice 2;00:00:00;239
+Aula;Dialogue: Plans for Holiday 1;00:00:00;240
+Aula;Dialogue: Plans for Holiday 2;00:00:00;241
+Aula;1. Conceitos fundamentais: confidencialidade, integridade e disponibilidade (CID);00:00:00;242
+Aula;2. Ameaças digitais: phishing, ransomware, DDoS, engenharia social;00:00:00;243
+Aula;3. Ferramentas de defesa: firewall, antivírus, MFA, criptografia, logs;00:00:00;244
+Aula;4. SDKs e CAPTCHA: papel na segurança e autenticação;00:00:00;245
+Aula;5. LGPD, GDPR e boas práticas de segurança da informação;00:00:00;246
+Aula;6. Segurança no ambiente administrativo;00:00:00;247
+Aula;Avaliação;00:00:00;248
+Aula;1. Conceito e vantagens do modelo SaaS;00:00:00;249
+Aula;2. Exemplos de SaaS aplicáveis: CRM, ERP, produtividade, atendimento;00:00:00;250
+Aula;3. Critérios para avaliação de SaaS (segurança, integração, custo);00:00:00;251
+Aula;4. Integração com dados e automações (APIs, conectores);00:00:00;252
+Aula;5. Comparação de Plataformas e Modelos Operacionais;00:00:00;253
+Aula;Avaliação;00:00:00;254
+Aula;1. Definição e importância da análise de dados na gestão empresarial;00:00:00;255
+Aula;2. Principais conceitos de análise de dados;00:00:00;256
+Aula;3. Técnicas de análise de dados - descritiva, diagnóstica, preditiva e prescritiva;00:00:00;257
+Aula;4. Importância da qualidade dos dados e sua influência nas decisões gerenciais;00:00:00;258
+Aula;5. O que é banco de dados e porque interessa aprender isso?;00:00:00;259
+Aula;6. Conceitos básicos de inteligência comercial (dados para área de vendas);00:00:00;260
+Aula;7. Casos de uso de análise de dados em diferentes setores empresariais;00:00:00;261
+Aula;8. Exercício sobre extração de dados (web scrapping e API);00:00:00;262
+Aula;Avaliação;00:00:00;263
+Aula;Conteúdo Final do Treinamento;00:00:00;264
+Aula;1. Fundamentos do Empreendedorismo Tecnológico;00:00:00;265
+Aula;2. Ciclo de Vida e Etapas de uma Startup;00:00:00;266
+Aula;3. MVP, Prototipação e Validação;00:00:00;267
+Aula;4. Modelos de Go-to-Market em Negócios de Tecnologia;00:00:00;268
+Aula;5. Pitch, Storytelling e Apresentação para Investidores;00:00:00;269
+Aula;6. Operação, Métricas e Crescimento de Startups;00:00:00;270
+Aula;Avaliação;00:00:00;271
+Aula;Introdução às ferramentas de TI essenciais para análise de dados;00:00:00;272
+Aula;Introdução ao Python;00:00:00;273
+Aula;Coleta de dados: fontes internas e externas e automação;00:00:00;274
+Aula;Organização de dados: banco de dados, estruturação e limpeza;00:00:00;275
+Aula;Análise de dados com ferramentas práticas (Dashboards/Gráficos);00:00:00;276
+Aula;Softwares especializados para análise de dados empresariais;00:00:00;277
+Aula;Caso de estudo de análise de dados;00:00:00;278
+Aula;Business Intelligence & Power BI (Curadoria Hashtag);00:00:00;279
+Aula;(Exercício) Desafio de Análise de Dados;00:00:00;280
+Aula;Exercício Snov.io;00:00:00;281
+Aula;Avaliação;00:00:00;282
+Aula;1. Trabalho Final - Operação LegalTech: Organizando o caos de dados em um escritório de advocacia;00:00:00;283
+Aula;2. Trabalho Final - Business Model Canvas (BMC);00:00:00;284
+Aula;3. Trabalho Final — Harmonização, Análise e Visualização da Base de Leads;00:00:00;285
+Aula;Orientações para Submissão do Projeto Final;00:00:00;286
+Aula;1. Introdução à Conceitos básicos Financeiros;00:00:00;287
+Aula;2. Glossários de Métricas;00:00:00;288
+Aula;3. Business Intelligence Aplicado à Área Financeira: Uma Abordagem Estratégica e Orientada a Dados;00:00:00;289
+Aula;Avaliação;00:00:00;290
+Aula;1. Apresentação do Módulo, objetivos e Metodologia;00:00:00;291
+Aula;2. Enriquecimento de Leads (Inteligência Comercial);00:00:00;292
+Aula;3. Abordagem;00:00:00;293
+Aula;4. Desenvolvimento de Vendas;00:00:00;294
+Aula;5. Estrutura do Departamento;00:00:00;295
+Aula;6. Processos;00:00:00;296
+Aula;7. Tecnologia;00:00:00;297
+Aula;8. Analytics;00:00:00;298
+Aula;9. GTM Engineering: Uma Nova Fronteira para Estratégias de Crescimento;00:00:00;299
+Aula;10. Exercício Prático — Aplicando o Conceito de GTM Engineering;00:00:00;300
+Aula;Avaliação;00:00:00;301
+Aula;1. Introdução ao Big Data;00:00:00;302
+Aula;2. Tecnologias de Big Data: ferramentas de visualização;00:00:00;303
+Aula;3. Inteligência Artificial (IA): conceitos e aplicações;00:00:00;304
+Aula;4. IA para tomada de decisões: machine learning;00:00:00;305
+Aula;5. Exploração de ferramentas de IA para visualização;00:00:00;306
+Aula;6. Caso de Estudo IA: o documentário “Coded Bias”;00:00:00;307
+Aula;7. Exercício sobre SQL;00:00:00;308
+Aula;8. Engenharia de Dados;00:00:00;309
+Aula;Avaliação;00:00:00;310
+Aula;1. Importância da gestão de tempo e recursos na eficiência empresarial;00:00:00;311
+Aula;2. O que são processos e sua importância;00:00:00;312
+Aula;3. Técnicas de priorização de tarefas: matriz de Eisenhower e técnica Pomodoro;00:00:00;313
+Aula;4. Introdução aos Métodos para Otimização da Gestão de Tempo e Recursos com Dados e TI;00:00:00;314
+Aula;5. A Importância dos Processos e técnicas para mapeá-los;00:00:00;315
+Aula;6. Como entender o desempenho operacional da sua empresa a partir de dados;00:00:00;316
+Aula;7. Ferramentas de TI utilizadas no contexto de processos;00:00:00;317
+Aula;8. Modelagem – Desenho e mapeamento dos processos;00:00:00;318
+Aula;9. Exercício Prático Modelagem de Processos;00:00:00;319
+Aula;10. Business Model Canva, Operating Model Canva, User Centered Design;00:00:00;320
+Aula;Avaliação;00:00:00;321
