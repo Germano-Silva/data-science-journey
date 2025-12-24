@@ -52,3 +52,165 @@
 2025-12-24 21:42:54,709 - INFO -   dim_aulas: 321 records
 2025-12-24 21:42:54,709 - INFO -   dim_status: 6 records
 2025-12-24 21:42:54,709 - INFO -   fato_progresso: 321 records
+2025-12-24 22:11:01,520 - INFO - Starting ETL pipeline...
+2025-12-24 22:11:01,522 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 22:11:01,523 - INFO - Found 18 CSV files to process
+2025-12-24 22:11:01,523 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 22:11:01,563 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 22:11:01,566 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 22:11:01,600 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 22:11:01,603 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 22:11:01,618 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 22:11:01,622 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 22:11:01,626 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 22:11:01,631 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 22:11:01,636 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 22:11:01,641 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 22:11:01,646 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 22:11:01,650 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 22:11:01,654 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 22:11:01,658 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 22:11:01,663 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 22:11:01,668 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 22:11:01,676 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 22:11:01,683 - INFO - Found 1 MD files to process
+2025-12-24 22:11:01,684 - INFO - Processing MD file: ingles.md
+2025-12-24 22:11:01,685 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 22:11:01,686 - INFO - Extracted 494 records from CSV files
+2025-12-24 22:11:01,686 - INFO - Extracted 0 records from MD files
+2025-12-24 22:11:01,686 - INFO - Step 2/4: Transforming data...
+2025-12-24 22:11:01,698 - INFO - Transformed course data into dimensional tables
+2025-12-24 22:11:01,699 - INFO - Transformed modulos data
+2025-12-24 22:11:01,699 - INFO - Transformed ingles lesson durations
+2025-12-24 22:11:01,718 - INFO - Merged all transformed data
+2025-12-24 22:11:01,718 - INFO - Step 3/4: Validating transformed data...
+2025-12-24 22:11:01,718 - INFO - Validating output data...
+2025-12-24 22:11:01,719 - INFO - Data validation passed successfully!
+2025-12-24 22:11:01,719 - INFO - Step 4/4: Loading data to output files...
+2025-12-24 22:11:01,719 - INFO - Starting data loading process...
+2025-12-24 22:11:01,730 - INFO - Saved 3 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_CURSOS.csv
+2025-12-24 22:11:01,730 - INFO - Successfully loaded dim_cursos with 3 records
+2025-12-24 22:11:01,732 - INFO - Saved 22 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_MODULOS.csv
+2025-12-24 22:11:01,732 - INFO - Successfully loaded dim_modulos with 22 records
+2025-12-24 22:11:01,735 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_AULAS.csv
+2025-12-24 22:11:01,735 - INFO - Successfully loaded dim_aulas with 321 records
+2025-12-24 22:11:01,739 - INFO - Saved 6 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_STATUS.csv
+2025-12-24 22:11:01,739 - INFO - Successfully loaded dim_status with 6 records
+2025-12-24 22:11:01,741 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/FATO_PROGRESSO.csv
+2025-12-24 22:11:01,741 - INFO - Successfully loaded fato_progresso with 321 records
+2025-12-24 22:11:01,741 - INFO - Data loading completed successfully!
+2025-12-24 22:11:01,741 - INFO - ETL pipeline completed successfully!
+2025-12-24 22:11:01,741 - INFO - Summary:
+2025-12-24 22:11:01,741 - INFO -   dim_cursos: 3 records
+2025-12-24 22:11:01,741 - INFO -   dim_modulos: 22 records
+2025-12-24 22:11:01,741 - INFO -   dim_aulas: 321 records
+2025-12-24 22:11:01,741 - INFO -   dim_status: 6 records
+2025-12-24 22:11:01,741 - INFO -   fato_progresso: 321 records
+2025-12-24 22:14:54,227 - INFO - Starting ETL pipeline...
+2025-12-24 22:14:54,229 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 22:14:54,231 - INFO - Found 18 CSV files to process
+2025-12-24 22:14:54,232 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 22:14:54,276 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 22:14:54,281 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 22:14:54,334 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 22:14:54,338 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 22:14:54,361 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 22:14:54,366 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 22:14:54,371 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 22:14:54,375 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 22:14:54,380 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 22:14:54,385 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 22:14:54,390 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 22:14:54,394 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 22:14:54,397 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 22:14:54,403 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 22:14:54,409 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 22:14:54,414 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 22:14:54,419 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 22:14:54,429 - INFO - Found 1 MD files to process
+2025-12-24 22:14:54,429 - INFO - Processing MD file: ingles.md
+2025-12-24 22:14:54,431 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 22:14:54,431 - INFO - Extracted 494 records from CSV files
+2025-12-24 22:14:54,431 - INFO - Extracted 0 records from MD files
+2025-12-24 22:14:54,431 - INFO - Step 2/4: Transforming data...
+2025-12-24 22:14:54,444 - INFO - Transformed course data into dimensional tables
+2025-12-24 22:14:54,444 - INFO - Transformed modulos data
+2025-12-24 22:14:54,444 - INFO - Transformed ingles lesson durations
+2025-12-24 22:14:54,457 - INFO - Merged all transformed data
+2025-12-24 22:14:54,458 - INFO - Step 3/4: Validating transformed data...
+2025-12-24 22:14:54,458 - INFO - Validating output data...
+2025-12-24 22:14:54,458 - INFO - Data validation passed successfully!
+2025-12-24 22:14:54,458 - INFO - Step 4/4: Loading data to output files...
+2025-12-24 22:14:54,458 - INFO - Starting data loading process...
+2025-12-24 22:14:54,467 - INFO - Saved 2 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_CURSOS.csv
+2025-12-24 22:14:54,467 - INFO - Successfully loaded dim_cursos with 2 records
+2025-12-24 22:14:54,470 - INFO - Saved 13 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_MODULOS.csv
+2025-12-24 22:14:54,470 - INFO - Successfully loaded dim_modulos with 13 records
+2025-12-24 22:14:54,474 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_AULAS.csv
+2025-12-24 22:14:54,474 - INFO - Successfully loaded dim_aulas with 321 records
+2025-12-24 22:14:54,478 - INFO - Saved 6 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_STATUS.csv
+2025-12-24 22:14:54,478 - INFO - Successfully loaded dim_status with 6 records
+2025-12-24 22:14:54,480 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/FATO_PROGRESSO.csv
+2025-12-24 22:14:54,481 - INFO - Successfully loaded fato_progresso with 321 records
+2025-12-24 22:14:54,481 - INFO - Data loading completed successfully!
+2025-12-24 22:14:54,481 - INFO - ETL pipeline completed successfully!
+2025-12-24 22:14:54,481 - INFO - Summary:
+2025-12-24 22:14:54,483 - INFO -   dim_cursos: 2 records
+2025-12-24 22:14:54,483 - INFO -   dim_modulos: 13 records
+2025-12-24 22:14:54,483 - INFO -   dim_aulas: 321 records
+2025-12-24 22:14:54,483 - INFO -   dim_status: 6 records
+2025-12-24 22:14:54,483 - INFO -   fato_progresso: 321 records
+2025-12-24 22:18:38,435 - INFO - Starting ETL pipeline...
+2025-12-24 22:18:38,436 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 22:18:38,438 - INFO - Found 18 CSV files to process
+2025-12-24 22:18:38,438 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 22:18:38,461 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 22:18:38,464 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 22:18:38,486 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 22:18:38,489 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 22:18:38,499 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 22:18:38,503 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 22:18:38,507 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 22:18:38,510 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 22:18:38,513 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 22:18:38,517 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 22:18:38,521 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 22:18:38,524 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 22:18:38,527 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 22:18:38,531 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 22:18:38,535 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 22:18:38,538 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 22:18:38,541 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 22:18:38,547 - INFO - Found 1 MD files to process
+2025-12-24 22:18:38,547 - INFO - Processing MD file: ingles.md
+2025-12-24 22:18:38,548 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 22:18:38,548 - INFO - Extracted 494 records from CSV files
+2025-12-24 22:18:38,548 - INFO - Extracted 0 records from MD files
+2025-12-24 22:18:38,548 - INFO - Step 2/4: Transforming data...
+2025-12-24 22:18:38,555 - INFO - Transformed course data into dimensional tables
+2025-12-24 22:18:38,556 - INFO - Transformed modulos data
+2025-12-24 22:18:38,556 - INFO - Transformed ingles lesson durations
+2025-12-24 22:18:38,569 - INFO - Merged all transformed data
+2025-12-24 22:18:38,569 - INFO - Step 3/4: Validating transformed data...
+2025-12-24 22:18:38,569 - INFO - Validating output data...
+2025-12-24 22:18:38,570 - INFO - Data validation passed successfully!
+2025-12-24 22:18:38,570 - INFO - Step 4/4: Loading data to output files...
+2025-12-24 22:18:38,570 - INFO - Starting data loading process...
+2025-12-24 22:18:38,575 - INFO - Saved 2 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_CURSOS.csv
+2025-12-24 22:18:38,575 - INFO - Successfully loaded dim_cursos with 2 records
+2025-12-24 22:18:38,577 - INFO - Saved 13 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_MODULOS.csv
+2025-12-24 22:18:38,578 - INFO - Successfully loaded dim_modulos with 13 records
+2025-12-24 22:18:38,580 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_AULAS.csv
+2025-12-24 22:18:38,580 - INFO - Successfully loaded dim_aulas with 321 records
+2025-12-24 22:18:38,582 - INFO - Saved 6 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_STATUS.csv
+2025-12-24 22:18:38,582 - INFO - Successfully loaded dim_status with 6 records
+2025-12-24 22:18:38,584 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/FATO_PROGRESSO.csv
+2025-12-24 22:18:38,584 - INFO - Successfully loaded fato_progresso with 321 records
+2025-12-24 22:18:38,584 - INFO - Data loading completed successfully!
+2025-12-24 22:18:38,584 - INFO - ETL pipeline completed successfully!
+2025-12-24 22:18:38,584 - INFO - Summary:
+2025-12-24 22:18:38,584 - INFO -   dim_cursos: 2 records
+2025-12-24 22:18:38,584 - INFO -   dim_modulos: 13 records
+2025-12-24 22:18:38,585 - INFO -   dim_aulas: 321 records
+2025-12-24 22:18:38,585 - INFO -   dim_status: 6 records
+2025-12-24 22:18:38,585 - INFO -   fato_progresso: 321 records

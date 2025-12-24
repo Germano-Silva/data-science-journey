@@ -14,8 +14,68 @@ from utils import setup_logging, extract_module_number, create_dataframe_from_re
 
 logger = setup_logging()
 
+def normalize_course_structure(records: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Normalize course structure to fix granularity issues"""
+    normalized = []
+
+    for record in records:
+        # Skip modulos records
+        if "module_id" in record or "course_id" in record:
+            normalized.append(record)
+            continue
+
+        course_name = record.get("course_name", "")
+        module_name = record.get("module_name", "")
+        lesson_name = record.get("lesson", "")
+        status_desc = record.get("status", "")
+
+        # Fix for "Análise de Dados" trilogy - treat as modules of one course
+        # Check if this is from the Analise de Dados trilogy by looking at specific patterns
+        is_analise_dados_topic = (
+            "Conceitos e Técnicas de Análise de Dados" in course_name or
+            "Ferramentas de TI para coleta" in course_name or
+            "Big Data e IA na tomada" in course_name or
+            "Métodos para otimização" in course_name or
+            "Integração da análise de dados" in course_name or
+            "Técnicas de análise financeira" in course_name or
+            "Go-to-Market Engineering" in course_name or
+            "Cibersegurança e proteção" in course_name or
+            "Utilização de SaaS para otimização" in course_name or
+            "Empresas como Sistemas" in course_name or
+            "Empreendedorismo Tecnológico" in course_name or
+            "Projeto Final: Aplicação" in course_name or
+            course_name.startswith("1.") or
+            course_name.startswith("2.") or
+            course_name.startswith("3.") or
+            course_name.startswith("4.") or
+            course_name.startswith("5.") or
+            course_name.startswith("6.") or
+            course_name.startswith("7.") or
+            course_name.startswith("8.") or
+            course_name.startswith("9.") or
+            course_name.startswith("10.") or
+            course_name.startswith("11.") or
+            course_name.startswith("12.")
+        )
+
+        if is_analise_dados_topic:
+            # Create normalized record with course as the main course
+            normalized_record = record.copy()
+            normalized_record["course_name"] = "Trilha Análise de Dados e TI Aplicado a Gestão"
+            normalized_record["module_name"] = course_name  # Move topic to module level
+            normalized_record["lesson"] = lesson_name
+            normalized_record["status"] = status_desc
+            normalized.append(normalized_record)
+        else:
+            normalized.append(record)
+
+    return normalized
+
 def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.DataFrame]:
     """Transform course data into dimensional tables"""
+    # First normalize the course structure
+    normalized_records = normalize_course_structure(csv_records)
+
     # Initialize dimensional tables
     dim_courses = []
     dim_modules = []
@@ -38,7 +98,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
     module_ids = {}
     lesson_ids = {}
 
-    for record in csv_records:
+    for record in normalized_records:
         # Skip modulos records for now
         if "module_id" in record or "course_id" in record:
             continue

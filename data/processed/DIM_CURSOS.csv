@@ -1,14 +1,3 @@
-nome_curso;trilha_origem;tempo_prova;id_curso;nota_minima;qtd_questoes
-Integração da análise de dados na rotina administrativa;Análise de Dados e TI Aplicado a Gestão;30 min;1;50%;10
-Empresas como Sistemas: Integração entre Dados, Processos e Tecnologia;Análise de Dados e TI Aplicado a Gestão;30 min;2;50%;10
-Inglês;Inglês Online;30 min;3;50%;10
-8. Cibersegurança e proteção de dados empresariais;Análise de Dados e TI Aplicado a Gestão;30 min;4;50%;10
-9. Utilização de SaaS para otimização de operações;Análise de Dados e TI Aplicado a Gestão;30 min;5;50%;10
-1. Conceitos e Técnicas de Análise de Dados Aplicados à Gestão Empresarial;Análise de Dados e TI Aplicado a Gestão;30 min;6;50%;10
-11. Empreendedorismo Tecnológico;Análise de Dados e TI Aplicado a Gestão;30 min;7;50%;10
-Ferramentas de TI para coleta, organização e análise de dados;Análise de Dados e TI Aplicado a Gestão;30 min;8;50%;10
-Projeto Final: Aplicação da Análise de Dados e TI na Gestão;Análise de Dados e TI Aplicado a Gestão;30 min;9;50%;10
-6. Técnicas de análise financeira com ferramentas de TI;Análise de Dados e TI Aplicado a Gestão;30 min;10;50%;10
-7. Go-to-Market Engineering;Análise de Dados e TI Aplicado a Gestão;30 min;11;50%;10
-Big Data e IA na tomada de decisões estratégicas;Análise de Dados e TI Aplicado a Gestão;30 min;12;50%;10
-Métodos para otimização da gestão de tempo e recursos com dados e TI;Análise de Dados e TI Aplicado a Gestão;30 min;13;50%;10
+trilha_origem;nota_minima;nome_curso;tempo_prova;id_curso;qtd_questoes
+Análise de Dados e TI Aplicado a Gestão;50%;Trilha Análise de Dados e TI Aplicado a Gestão;30 min;1;10
+Inglês Online;50%;Inglês;30 min;2;10
