@@ -214,3 +214,315 @@
 2025-12-24 22:18:38,585 - INFO -   dim_aulas: 321 records
 2025-12-24 22:18:38,585 - INFO -   dim_status: 6 records
 2025-12-24 22:18:38,585 - INFO -   fato_progresso: 321 records
+2025-12-24 22:43:07,975 - INFO - Starting ETL pipeline...
+2025-12-24 22:43:07,977 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 22:43:07,981 - INFO - Found 18 CSV files to process
+2025-12-24 22:43:07,981 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 22:43:08,033 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 22:43:08,038 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 22:43:08,078 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 22:43:08,083 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 22:43:08,103 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 22:43:08,107 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 22:43:08,115 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 22:43:08,121 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 22:43:08,126 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 22:43:08,132 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 22:43:08,142 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 22:43:08,148 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 22:43:08,154 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 22:43:08,163 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 22:43:08,169 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 22:43:08,175 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 22:43:08,181 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 22:43:08,193 - INFO - Found 1 MD files to process
+2025-12-24 22:43:08,193 - INFO - Processing MD file: ingles.md
+2025-12-24 22:43:08,197 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 22:43:08,197 - INFO - Extracted 494 records from CSV files
+2025-12-24 22:43:08,197 - INFO - Extracted 0 records from MD files
+2025-12-24 22:43:08,197 - INFO - Step 2/4: Transforming data...
+2025-12-24 22:43:08,198 - ERROR - ETL pipeline failed: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 22:43:08,201 - ERROR - Fatal error in ETL pipeline: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 87, in main
+    run_etl_pipeline()
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 22:56:35,372 - INFO - Starting ETL pipeline...
+2025-12-24 22:56:35,374 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 22:56:35,376 - INFO - Found 18 CSV files to process
+2025-12-24 22:56:35,376 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 22:56:35,417 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 22:56:35,420 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 22:56:35,448 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 22:56:35,451 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 22:56:35,466 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 22:56:35,470 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 22:56:35,475 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 22:56:35,478 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 22:56:35,482 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 22:56:35,487 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 22:56:35,491 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 22:56:35,496 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 22:56:35,501 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 22:56:35,507 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 22:56:35,513 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 22:56:35,521 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 22:56:35,527 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 22:56:35,539 - INFO - Found 1 MD files to process
+2025-12-24 22:56:35,539 - INFO - Processing MD file: ingles.md
+2025-12-24 22:56:35,542 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 22:56:35,542 - INFO - Extracted 494 records from CSV files
+2025-12-24 22:56:35,542 - INFO - Extracted 0 records from MD files
+2025-12-24 22:56:35,542 - INFO - Step 2/4: Transforming data...
+2025-12-24 22:56:35,544 - ERROR - ETL pipeline failed: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 22:56:35,547 - ERROR - Fatal error in ETL pipeline: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 87, in main
+    run_etl_pipeline()
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:22:08,563 - INFO - Starting ETL pipeline...
+2025-12-24 23:22:08,565 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 23:22:08,567 - INFO - Found 18 CSV files to process
+2025-12-24 23:22:08,567 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 23:22:08,585 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 23:22:08,591 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 23:22:08,623 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 23:22:08,628 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 23:22:08,646 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 23:22:08,657 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 23:22:08,665 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 23:22:08,670 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 23:22:08,675 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 23:22:08,680 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 23:22:08,685 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 23:22:08,689 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 23:22:08,694 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 23:22:08,699 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 23:22:08,704 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 23:22:08,710 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 23:22:08,715 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 23:22:08,725 - INFO - Found 1 MD files to process
+2025-12-24 23:22:08,726 - INFO - Processing MD file: ingles.md
+2025-12-24 23:22:08,728 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 23:22:08,728 - INFO - Extracted 494 records from CSV files
+2025-12-24 23:22:08,729 - INFO - Extracted 0 records from MD files
+2025-12-24 23:22:08,729 - INFO - Step 2/4: Transforming data...
+2025-12-24 23:22:08,730 - ERROR - ETL pipeline failed: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:22:08,732 - ERROR - Fatal error in ETL pipeline: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 87, in main
+    run_etl_pipeline()
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:29:31,073 - INFO - Starting ETL pipeline...
+2025-12-24 23:29:31,073 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 23:29:31,075 - INFO - Found 18 CSV files to process
+2025-12-24 23:29:31,075 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 23:29:31,089 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 23:29:31,093 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 23:29:31,145 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 23:29:31,148 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 23:29:31,168 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 23:29:31,174 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 23:29:31,179 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 23:29:31,183 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 23:29:31,186 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 23:29:31,192 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 23:29:31,196 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 23:29:31,200 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 23:29:31,205 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 23:29:31,211 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 23:29:31,217 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 23:29:31,221 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 23:29:31,225 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 23:29:31,232 - INFO - Found 1 MD files to process
+2025-12-24 23:29:31,233 - INFO - Processing MD file: ingles.md
+2025-12-24 23:29:31,233 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 23:29:31,233 - INFO - Extracted 494 records from CSV files
+2025-12-24 23:29:31,233 - INFO - Extracted 0 records from MD files
+2025-12-24 23:29:31,233 - INFO - Step 2/4: Transforming data...
+2025-12-24 23:29:31,234 - ERROR - ETL pipeline failed: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:29:31,235 - ERROR - Fatal error in ETL pipeline: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 87, in main
+    run_etl_pipeline()
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 155, in transform_course_data
+    course_id = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:30:01,410 - INFO - Starting ETL pipeline...
+2025-12-24 23:30:01,410 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 23:30:01,411 - INFO - Found 18 CSV files to process
+2025-12-24 23:30:01,411 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 23:30:01,418 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 23:30:01,422 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 23:30:01,454 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 23:30:01,457 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 23:30:01,471 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 23:30:01,475 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 23:30:01,478 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 23:30:01,482 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 23:30:01,486 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 23:30:01,490 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 23:30:01,495 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 23:30:01,499 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 23:30:01,502 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 23:30:01,506 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 23:30:01,512 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 23:30:01,517 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 23:30:01,522 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 23:30:01,531 - INFO - Found 1 MD files to process
+2025-12-24 23:30:01,531 - INFO - Processing MD file: ingles.md
+2025-12-24 23:30:01,531 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 23:30:01,531 - INFO - Extracted 494 records from CSV files
+2025-12-24 23:30:01,532 - INFO - Extracted 0 records from MD files
+2025-12-24 23:30:01,532 - INFO - Step 2/4: Transforming data...
+2025-12-24 23:30:01,534 - ERROR - ETL pipeline failed: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 131, in transform_course_data
+    course_id_key = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:30:01,535 - ERROR - Fatal error in ETL pipeline: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 87, in main
+    run_etl_pipeline()
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 131, in transform_course_data
+    course_id_key = len(dim_cursos) + 1
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:30:27,116 - INFO - Starting ETL pipeline...
+2025-12-24 23:30:27,117 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 23:30:27,118 - INFO - Found 18 CSV files to process
+2025-12-24 23:30:27,118 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 23:30:27,125 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 23:30:27,129 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 23:30:27,160 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 23:30:27,164 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 23:30:27,179 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 23:30:27,185 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 23:30:27,191 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 23:30:27,197 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 23:30:27,204 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 23:30:27,212 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 23:30:27,216 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 23:30:27,220 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 23:30:27,224 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 23:30:27,228 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 23:30:27,233 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 23:30:27,238 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 23:30:27,243 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 23:30:27,253 - INFO - Found 1 MD files to process
+2025-12-24 23:30:27,253 - INFO - Processing MD file: ingles.md
+2025-12-24 23:30:27,254 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 23:30:27,254 - INFO - Extracted 494 records from CSV files
+2025-12-24 23:30:27,254 - INFO - Extracted 0 records from MD files
+2025-12-24 23:30:27,254 - INFO - Step 2/4: Transforming data...
+2025-12-24 23:30:27,257 - ERROR - ETL pipeline failed: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 216, in transform_course_data
+    "dim_cursos": create_dataframe_from_records(dim_cursos),
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:30:27,258 - ERROR - Fatal error in ETL pipeline: name 'dim_cursos' is not defined
+Traceback (most recent call last):
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 87, in main
+    run_etl_pipeline()
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/main.py", line 48, in run_etl_pipeline
+    course_data = transform_course_data(csv_records)
+  File "/home/germano-silva/Documentos/WorkSpace/data-science-journey/etl_cursos/transformers.py", line 216, in transform_course_data
+    "dim_cursos": create_dataframe_from_records(dim_cursos),
+NameError: name 'dim_cursos' is not defined
+2025-12-24 23:30:54,718 - INFO - Starting ETL pipeline...
+2025-12-24 23:30:54,718 - INFO - Step 1/4: Extracting data from source files...
+2025-12-24 23:30:54,720 - INFO - Found 18 CSV files to process
+2025-12-24 23:30:54,720 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 5.csv
+2025-12-24 23:30:54,725 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 10.csv
+2025-12-24 23:30:54,729 - INFO - Processing file: Trilha Ingles - Aulas.csv
+2025-12-24 23:30:54,763 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 8.csv
+2025-12-24 23:30:54,766 - INFO - Processing file: Trilha Formação em Cientista de Dados - Excel Intermediário.csv
+2025-12-24 23:30:54,781 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 9.csv
+2025-12-24 23:30:54,785 - INFO - Processing file: Trilha Formação em Cientista de Dados - trilha.csv
+2025-12-24 23:30:54,790 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 1.csv
+2025-12-24 23:30:54,794 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 11.csv
+2025-12-24 23:30:54,798 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - Modulos.csv
+2025-12-24 23:30:54,804 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 2.csv
+2025-12-24 23:30:54,809 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 12.csv
+2025-12-24 23:30:54,813 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 6.csv
+2025-12-24 23:30:54,816 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 7.csv
+2025-12-24 23:30:54,821 - INFO - Processing file: Trilha Ingles - Modulos.csv
+2025-12-24 23:30:54,825 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 3.csv
+2025-12-24 23:30:54,829 - INFO - Processing file: Trilha Analise de Dados e TI Aplicado a Gestao - 4.csv
+2025-12-24 23:30:54,835 - INFO - Processing file: Trilha Formação em Cientista de Dados - Introdução a Análise de Dados.csv
+2025-12-24 23:30:54,844 - INFO - Found 1 MD files to process
+2025-12-24 23:30:54,844 - INFO - Processing MD file: ingles.md
+2025-12-24 23:30:54,844 - ERROR - Error processing ingles.md: multiple repeat at position 6
+2025-12-24 23:30:54,845 - INFO - Extracted 494 records from CSV files
+2025-12-24 23:30:54,845 - INFO - Extracted 0 records from MD files
+2025-12-24 23:30:54,845 - INFO - Step 2/4: Transforming data...
+2025-12-24 23:30:54,854 - INFO - Transformed course data into dimensional tables
+2025-12-24 23:30:54,855 - INFO - Transformed modulos data
+2025-12-24 23:30:54,855 - INFO - Transformed ingles lesson durations
+2025-12-24 23:30:54,877 - INFO - Merged all transformed data
+2025-12-24 23:30:54,877 - INFO - Step 3/4: Validating transformed data...
+2025-12-24 23:30:54,878 - INFO - Validating output data...
+2025-12-24 23:30:54,878 - INFO - Data validation passed successfully!
+2025-12-24 23:30:54,878 - INFO - Step 4/4: Loading data to output files...
+2025-12-24 23:30:54,878 - INFO - Starting data loading process...
+2025-12-24 23:30:54,901 - INFO - Saved 14 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_CURSOS.csv
+2025-12-24 23:30:54,901 - INFO - Successfully loaded dim_cursos with 14 records
+2025-12-24 23:30:54,904 - INFO - Saved 36 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_MODULOS.csv
+2025-12-24 23:30:54,904 - INFO - Successfully loaded dim_modulos with 36 records
+2025-12-24 23:30:54,908 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_AULAS.csv
+2025-12-24 23:30:54,908 - INFO - Successfully loaded dim_aulas with 321 records
+2025-12-24 23:30:54,911 - INFO - Saved 6 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/DIM_STATUS.csv
+2025-12-24 23:30:54,911 - INFO - Successfully loaded dim_status with 6 records
+2025-12-24 23:30:54,915 - INFO - Saved 321 records to /home/germano-silva/Documentos/WorkSpace/data-science-journey/data/processed/FATO_PROGRESSO.csv
+2025-12-24 23:30:54,915 - INFO - Successfully loaded fato_progresso with 321 records
+2025-12-24 23:30:54,915 - INFO - Data loading completed successfully!
+2025-12-24 23:30:54,915 - INFO - ETL pipeline completed successfully!
+2025-12-24 23:30:54,915 - INFO - Summary:
+2025-12-24 23:30:54,915 - INFO -   dim_cursos: 14 records
+2025-12-24 23:30:54,916 - INFO -   dim_modulos: 36 records
+2025-12-24 23:30:54,916 - INFO -   dim_aulas: 321 records
+2025-12-24 23:30:54,916 - INFO -   dim_status: 6 records
+2025-12-24 23:30:54,916 - INFO -   fato_progresso: 321 records

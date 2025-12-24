@@ -99,11 +99,48 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
     lesson_ids = {}
 
     for record in normalized_records:
-        # Skip modulos records for now
+        # Handle modulos records first (from módulos CSV files)
         if "module_id" in record or "course_id" in record:
+            if "module_id" in record:
+                # Inglês modules
+                module_id = record["module_id"]
+                module_name = record["module_name"]
+                duration_total = record["duration_total"]
+
+                # Create module entry
+                if module_name not in module_ids:
+                    module_id_key = len(dim_modules) + 1
+                    module_ids[module_name] = module_id_key
+                    dim_modules.append({
+                        "id_modulo": module_id_key,
+                        "nome_modulo": module_name,
+                        "ordem_modulo": module_id,
+                        "duracao_total_estimada": duration_total
+                    })
+            elif "course_id" in record:
+                # Analise de Dados modules
+                course_id = record["course_id"]
+                course_name = record["course_name"]
+                status_geral = record["status_geral"]
+                nota_minima = record["nota_minima"]
+                tempo_prova = record["tempo_prova"]
+                questoes = record["questoes"]
+
+                # Create course entry if not exists
+                if course_name not in course_ids:
+                    course_id_key = len(dim_courses) + 1
+                    course_ids[course_name] = course_id_key
+                    dim_courses.append({
+                        "id_curso": course_id_key,
+                        "nome_curso": course_name,
+                        "trilha_origem": "Análise de Dados e TI Aplicado a Gestão",
+                        "nota_minima": nota_minima,
+                        "tempo_prova": tempo_prova,
+                        "qtd_questoes": questoes
+                    })
             continue
 
-        # Handle different CSV structures
+        # Handle standard course/lesson records
         course_name = record.get("course_name", "")
         module_name = record.get("module_name", "")
         lesson_name = record.get("lesson", "")

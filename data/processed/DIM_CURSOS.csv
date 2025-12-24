@@ -1,3 +1,15 @@
-trilha_origem;nota_minima;nome_curso;tempo_prova;id_curso;qtd_questoes
-Análise de Dados e TI Aplicado a Gestão;50%;Trilha Análise de Dados e TI Aplicado a Gestão;30 min;1;10
-Inglês Online;50%;Inglês;30 min;2;10
+nota_minima;nome_curso;trilha_origem;qtd_questoes;id_curso;tempo_prova
+50%;Trilha Análise de Dados e TI Aplicado a Gestão;Análise de Dados e TI Aplicado a Gestão;10;1;30 min
+50%;Inglês;Inglês Online;10;2;30 min
+50%;1. Conceitos e Técnicas de Análise de Dados...;Análise de Dados e TI Aplicado a Gestão;10;3;30 min
+50%;2. Ferramentas de TI para coleta e análise...;Análise de Dados e TI Aplicado a Gestão;10;4;30 min
+50%;3. Big Data e Inteligência Artificial...;Análise de Dados e TI Aplicado a Gestão;10;5;30 min
+50%;4. Métodos para otimização da gestão...;Análise de Dados e TI Aplicado a Gestão;10;6;30 min
+50%;5. Integração da análise de dados na rotina...;Análise de Dados e TI Aplicado a Gestão;10;7;30 min
+50%;6. Técnicas de análise financeira...;Análise de Dados e TI Aplicado a Gestão;10;8;30 min
+50%;7. Go-to-Market Engineering;Análise de Dados e TI Aplicado a Gestão;10;9;30 min
+50%;8. Cibersegurança e proteção de dados...;Análise de Dados e TI Aplicado a Gestão;10;10;30 min
+50%;9. Utilização de SaaS para otimização...;Análise de Dados e TI Aplicado a Gestão;10;11;30 min
+70%;10. Empresas como Sistemas: Integração...;Análise de Dados e TI Aplicado a Gestão;10;12;20 min
+70%;11. Empreendedorismo Tecnológico;Análise de Dados e TI Aplicado a Gestão;10;13;20 min
+N/D;12. Projeto Final: Aplicação da Análise de Dados e TI na Gestão;Análise de Dados e TI Aplicado a Gestão;N/D;14;N/D

@@ -1,14 +1,37 @@
-ordem_modulo;id_modulo;nome_modulo;duracao_total_estimada
-1;1;Integração da análise de dados na rotina administrativa;00:00:00
-1;2;Empresas como Sistemas: Integração entre Dados, Processos e Tecnologia;00:00:00
-1;3;;00:00:00
-8;4;8. Cibersegurança e proteção de dados empresariais;00:00:00
-9;5;9. Utilização de SaaS para otimização de operações;00:00:00
-1;6;1. Conceitos e Técnicas de Análise de Dados Aplicados à Gestão Empresarial;00:00:00
-11;7;11. Empreendedorismo Tecnológico;00:00:00
-1;8;Ferramentas de TI para coleta, organização e análise de dados;00:00:00
-1;9;Projeto Final: Aplicação da Análise de Dados e TI na Gestão;00:00:00
-6;10;6. Técnicas de análise financeira com ferramentas de TI;00:00:00
-7;11;7. Go-to-Market Engineering;00:00:00
-1;12;Big Data e IA na tomada de decisões estratégicas;00:00:00
-1;13;Métodos para otimização da gestão de tempo e recursos com dados e TI;00:00:00
+nome_modulo;ordem_modulo;duracao_total_estimada;id_modulo
+Integração da análise de dados na rotina administrativa;1;00:00:00;1
+Empresas como Sistemas: Integração entre Dados, Processos e Tecnologia;1;00:00:00;2
+;1;00:00:00;3
+8. Cibersegurança e proteção de dados empresariais;8;00:00:00;4
+9. Utilização de SaaS para otimização de operações;9;00:00:00;5
+1. Conceitos e Técnicas de Análise de Dados Aplicados à Gestão Empresarial;1;00:00:00;6
+11. Empreendedorismo Tecnológico;11;00:00:00;7
+Ferramentas de TI para coleta, organização e análise de dados;1;00:00:00;8
+Projeto Final: Aplicação da Análise de Dados e TI na Gestão;1;00:00:00;9
+6. Técnicas de análise financeira com ferramentas de TI;6;00:00:00;10
+7. Go-to-Market Engineering;7;00:00:00;11
+O básico para a comunicação;1;06h:45m;12
+Adjetivos e pronomes;2;05h:07m;13
+Um pouco de vocabulário;3;03h:56m;14
+Vamos dialogar?;4;05h:23m;15
+Vamos falar sobre comida e roupas?;5;03h:07m;16
+Partes da casa;6;06h:35m;17
+Mais conversação;7;02h:43m;18
+Móveis e objetos;8;03h:43m;19
+Partes do corpo e mais;9;07h:36m;20
+Comparativos e superlativos;10;04h:41m;21
+Main Verbs;11;05h:10m;22
+Um pouco mais de gramática;12;04h:28m;23
+Vamos expandir o vocabulário?;13;05h:02m;24
+Rotina;14;01h:55m;25
+No hotel;15;06h:04m;26
+Conversação aplicada;16;06h:31m;27
+Irregular Verbs;17;07h:48m;28
+Meios de transporte;18;05h:23m;29
+To Do x To Make;19;04h:24m;30
+To Take;20;02h:55m;31
+To Get;21;04h:33m;32
+To Look;22;05h:53m;33
+Diálogo viagem/férias;23;04h:05m;34
+Big Data e IA na tomada de decisões estratégicas;1;00:00:00;35
+Métodos para otimização da gestão de tempo e recursos com dados e TI;1;00:00:00;36
