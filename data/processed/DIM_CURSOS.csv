@@ -1,15 +1,4 @@
-nome_curso;nota_minima;qtd_questoes;tempo_prova;id_curso;trilha_origem
-Trilha Análise de Dados e TI Aplicado a Gestão;50%;10;30 min;1;Análise de Dados e TI Aplicado a Gestão
-Inglês;50%;10;30 min;2;Inglês Online
-1. Conceitos e Técnicas de Análise de Dados...;50%;10;30 min;3;Análise de Dados e TI Aplicado a Gestão
-2. Ferramentas de TI para coleta e análise...;50%;10;30 min;4;Análise de Dados e TI Aplicado a Gestão
-3. Big Data e Inteligência Artificial...;50%;10;30 min;5;Análise de Dados e TI Aplicado a Gestão
-4. Métodos para otimização da gestão...;50%;10;30 min;6;Análise de Dados e TI Aplicado a Gestão
-5. Integração da análise de dados na rotina...;50%;10;30 min;7;Análise de Dados e TI Aplicado a Gestão
-6. Técnicas de análise financeira...;50%;10;30 min;8;Análise de Dados e TI Aplicado a Gestão
-7. Go-to-Market Engineering;50%;10;30 min;9;Análise de Dados e TI Aplicado a Gestão
-8. Cibersegurança e proteção de dados...;50%;10;30 min;10;Análise de Dados e TI Aplicado a Gestão
-9. Utilização de SaaS para otimização...;50%;10;30 min;11;Análise de Dados e TI Aplicado a Gestão
-10. Empresas como Sistemas: Integração...;70%;10;20 min;12;Análise de Dados e TI Aplicado a Gestão
-11. Empreendedorismo Tecnológico;70%;10;20 min;13;Análise de Dados e TI Aplicado a Gestão
-12. Projeto Final: Aplicação da Análise de Dados e TI na Gestão;N/D;N/D;N/D;14;Análise de Dados e TI Aplicado a Gestão
+trilha_origem;id_curso;tempo_prova;qtd_questoes;nota_minima;nome_curso
+Formação em Cientista de Dados;1;30 min;10;70%;Formação em Cientista de Dados
+Análise de Dados e TI Aplicado a Gestão;2;30 min;10;50%;Trilha Análise de Dados e TI Aplicado a Gestão
+Inglês Online;3;30 min;10;50%;Inglês

@@ -104,6 +104,21 @@ def _extract_modulos(df: pd.DataFrame, filename: str) -> List[Dict[str, Any]]:
                 "raw_data": row.to_dict()
             }
             records.append(record)
+    elif "trilha.csv" in filename.lower():
+        # Cientista de Dados trilha.csv structure
+        for _, row in df.iterrows():
+            record = {
+                "source_file": filename,
+                "course_id": row.get("Módulo", ""),  # Use Módulo number as course_id
+                "course_name": clean_text(row.get("Nome do Curso")),
+                "module_name": clean_text(row.get("Nome do Módulo")),
+                "status_geral": clean_text(row.get("Status")),
+                "nota_minima": "70%",  # Default for Cientista de Dados
+                "tempo_prova": "30 min",  # Default for Cientista de Dados
+                "questoes": "10",  # Default for Cientista de Dados
+                "raw_data": row.to_dict()
+            }
+            records.append(record)
     else:
         # Other modulos structure (Analise de Dados)
         for _, row in df.iterrows():
@@ -152,38 +167,72 @@ def _extract_ingles_md(content: str) -> List[Dict[str, Any]]:
     current_module = None
     current_module_name = None
 
-    # Find all module sections
-    module_sections = re.findall(
-        r'#### **Módulo \d+: ([^\\n]+)**.*?\\n\\| Nome do Curso \\| Módulo \\| Nome do Módulo \\| Aula \\| Duração \\| Data Início \\| Data Fim \\| Status \\|(.*?)####',
-        content,
-        re.DOTALL
-    )
+    # Split content by module sections
+    lines = content.split('\n')
+    in_table = False
+    current_table_lines = []
 
-    for module_name, table_content in module_sections:
-        # Extract module number from name
-        module_match = re.search(r'Módulo (\d+)', module_name)
+    for line in lines:
+        # Check if we're starting a new module section
+        module_match = re.match(r'#### **Módulo (\d+): (.+?)**', line)
         if module_match:
+            # Save previous module's table if we were in one
+            if in_table and current_module is not None and current_table_lines:
+                _parse_table_lines(current_module, current_module_name, current_table_lines, records)
+                current_table_lines = []
+
+            # Start new module
             current_module = int(module_match.group(1))
-            current_module_name = module_name.split(': ')[1] if ': ' in module_name else module_name
+            current_module_name = module_match.group(2)
+            in_table = False
+            continue
 
-        # Extract table rows
-        rows = re.findall(
-            r'\\| Inglês Online \\| \d+ \\| [^\\|]+ \\| ([^\\|]+) \\| ([^\\|]+) \\|',
-            table_content
-        )
+        # Check if we're starting a table
+        if '| Nome do Curso | Módulo | Nome do Módulo | Aula | Duração |' in line:
+            in_table = True
+            current_table_lines = []
+            continue
 
-        for lesson_name, duration in rows:
-            record = {
-                "source_file": "ingles.md",
-                "module": current_module,
-                "module_name": current_module_name,
-                "lesson": clean_text(lesson_name),
-                "duration": parse_duration(duration),
-                "raw_data": {
-                    "lesson": lesson_name,
-                    "duration": duration
-                }
-            }
-            records.append(record)
+        # Check if we're ending a table (end of file or new section)
+        if in_table and (line.startswith('####') or line.startswith('---') or not line.strip()):
+            if current_table_lines:
+                _parse_table_lines(current_module, current_module_name, current_table_lines, records)
+                current_table_lines = []
+            in_table = False
+            continue
+
+        # Collect table rows
+        if in_table and line.startswith('| Inglês Online |'):
+            current_table_lines.append(line)
+
+    # Process any remaining table lines
+    if in_table and current_table_lines:
+        _parse_table_lines(current_module, current_module_name, current_table_lines, records)
 
     return records
+
+def _parse_table_lines(module_num: int, module_name: str, table_lines: List[str], records: List[Dict[str, Any]]) -> None:
+    """Parse table lines to extract lesson durations"""
+    import re
+    from utils import parse_duration
+
+    for line in table_lines:
+        # Extract lesson name and duration from table row
+        # Format: | Inglês Online | 1 | O básico para a comunicação | Lesson Name | Duration | ...
+        parts = line.split('|')
+        if len(parts) >= 6:
+            lesson_name = parts[4].strip()
+            duration = parts[5].strip()
+            if lesson_name and duration:
+                record = {
+                    "source_file": "ingles.md",
+                    "module": module_num,
+                    "module_name": module_name,
+                    "lesson": clean_text(lesson_name),
+                    "duration": parse_duration(duration),
+                    "raw_data": {
+                        "lesson": lesson_name,
+                        "duration": duration
+                    }
+                }
+                records.append(record)

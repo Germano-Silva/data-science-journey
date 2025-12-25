@@ -67,7 +67,17 @@ def normalize_course_structure(records: List[Dict[str, Any]]) -> List[Dict[str, 
             normalized_record["status"] = status_desc
             normalized.append(normalized_record)
         else:
-            normalized.append(record)
+            # For Cientista de Dados, ensure we have the correct course name
+            if "Cientista de Dados" in course_name and "Introdução a Análise de Dados" in lesson_name:
+                normalized_record = record.copy()
+                normalized_record["course_name"] = "Formação em Cientista de Dados"
+                normalized.append(normalized_record)
+            elif "Cientista de Dados" in course_name and "Excel Intermediário" in lesson_name:
+                normalized_record = record.copy()
+                normalized_record["course_name"] = "Formação em Cientista de Dados"
+                normalized.append(normalized_record)
+            else:
+                normalized.append(record)
 
     return normalized
 
@@ -77,7 +87,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
     normalized_records = normalize_course_structure(csv_records)
 
     # Initialize dimensional tables
-    dim_courses = []
+    dim_cursos = []
     dim_modules = []
     dim_lessons = []
     dim_status = []
@@ -97,6 +107,75 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
     course_ids = {}
     module_ids = {}
     lesson_ids = {}
+
+    # First pass: Create all courses from modulos records to ensure Cientista de Dados is included
+    for record in normalized_records:
+        if "course_id" in record:
+            course_id = record["course_id"]
+            course_name = record["course_name"]
+            status_geral = record["status_geral"]
+            nota_minima = record["nota_minima"]
+            tempo_prova = record["tempo_prova"]
+            questoes = record["questoes"]
+
+            # Skip the individual modules from Análise de Dados trilogy
+            # These should be treated as modules, not courses
+            is_analise_dados_module = (
+                course_name.startswith("1.") or
+                course_name.startswith("2.") or
+                course_name.startswith("3.") or
+                course_name.startswith("4.") or
+                course_name.startswith("5.") or
+                course_name.startswith("6.") or
+                course_name.startswith("7.") or
+                course_name.startswith("8.") or
+                course_name.startswith("9.") or
+                course_name.startswith("10.") or
+                course_name.startswith("11.") or
+                course_name.startswith("12.")
+            )
+
+            if is_analise_dados_module:
+                continue  # Skip these, they'll be handled as modules later
+
+            # Create course entry if not exists
+            if course_name not in course_ids:
+                course_id_key = len(dim_cursos) + 1
+                course_ids[course_name] = course_id_key
+
+                # Determine trilha origem based on course name
+                trilha_origem = "Análise de Dados e TI Aplicado a Gestão"
+                if "Cientista de Dados" in course_name:
+                    trilha_origem = "Formação em Cientista de Dados"
+
+                # Ensure we have the main course name for Cientista de Dados
+                if "Cientista de Dados" in course_name:
+                    course_name = "Formação em Cientista de Dados"
+
+                dim_cursos.append({
+                    "id_curso": course_id_key,
+                    "nome_curso": course_name,
+                    "trilha_origem": trilha_origem,
+                    "nota_minima": nota_minima,
+                    "tempo_prova": tempo_prova,
+                    "qtd_questoes": questoes
+                })
+
+    # Ensure Cientista de Dados course exists
+    if "Formação em Cientista de Dados" not in course_ids:
+        course_id_key = len(dim_cursos) + 1
+        course_ids["Formação em Cientista de Dados"] = course_id_key
+        dim_cursos.append({
+            "id_curso": course_id_key,
+            "nome_curso": "Formação em Cientista de Dados",
+            "trilha_origem": "Formação em Cientista de Dados",
+            "nota_minima": "70%",
+            "tempo_prova": "30 min",
+            "qtd_questoes": 10
+        })
+
+    # Process Cientista de Dados trilha.csv to create modules
+    process_cientista_dados_trilha(normalized_records, course_ids, module_ids, lesson_ids, dim_cursos, dim_modules, dim_lessons, fato_progresso, status_ids)
 
     for record in normalized_records:
         # Handle modulos records first (from módulos CSV files)
@@ -118,26 +197,9 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
                         "duracao_total_estimada": duration_total
                     })
             elif "course_id" in record:
-                # Analise de Dados modules
-                course_id = record["course_id"]
-                course_name = record["course_name"]
-                status_geral = record["status_geral"]
-                nota_minima = record["nota_minima"]
-                tempo_prova = record["tempo_prova"]
-                questoes = record["questoes"]
+                # Analise de Dados modules - already processed in first pass
+                continue
 
-                # Create course entry if not exists
-                if course_name not in course_ids:
-                    course_id_key = len(dim_courses) + 1
-                    course_ids[course_name] = course_id_key
-                    dim_courses.append({
-                        "id_curso": course_id_key,
-                        "nome_curso": course_name,
-                        "trilha_origem": "Análise de Dados e TI Aplicado a Gestão",
-                        "nota_minima": nota_minima,
-                        "tempo_prova": tempo_prova,
-                        "qtd_questoes": questoes
-                    })
             continue
 
         # Handle standard course/lesson records
@@ -152,7 +214,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
 
         # Get or create course ID
         if course_name not in course_ids:
-            course_id = len(dim_courses) + 1
+            course_id = len(dim_cursos) + 1
             course_ids[course_name] = course_id
 
             # Determine trilha origem based on course name
@@ -162,7 +224,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
             elif "Inglês" in course_name or course_name == "Inglês":
                 trilha_origem = "Inglês Online"
 
-            dim_courses.append({
+            dim_cursos.append({
                 "id_curso": course_id,
                 "nome_curso": course_name,
                 "trilha_origem": trilha_origem,
@@ -213,7 +275,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
         })
 
     return {
-        "dim_cursos": create_dataframe_from_records(dim_courses),
+        "dim_cursos": create_dataframe_from_records(dim_cursos),
         "dim_modulos": create_dataframe_from_records(dim_modules),
         "dim_aulas": create_dataframe_from_records(dim_lessons),
         "dim_status": create_dataframe_from_records(dim_status),
@@ -249,6 +311,53 @@ def transform_modulos_data(modulos_records: List[Dict[str, Any]]) -> Dict[str, p
         "course_updates": course_updates,
         "module_updates": module_updates
     }
+
+def process_cientista_dados_trilha(csv_records: List[Dict[str, Any]], course_ids: Dict[str, int], module_ids: Dict[str, int], lesson_ids: Dict[str, int], dim_cursos: List[Dict[str, Any]], dim_modules: List[Dict[str, Any]], dim_lessons: List[Dict[str, Any]], fato_progresso: List[Dict[str, Any]], status_ids: Dict[str, int]) -> None:
+    """Process Cientista de Dados trilha.csv file to create modules and lessons"""
+    # Find records from the trilha.csv file
+    trilha_records = [r for r in csv_records if "source_file" in r and "trilha.csv" in r.get("source_file", "").lower()]
+
+    for record in trilha_records:
+        if "course_id" in record:
+            # This is a module definition from the trilha.csv
+            course_id = record["course_id"]
+            course_name = record["course_name"]
+            module_name = record.get("module_name", "")
+            status_geral = record.get("status_geral", "")
+
+            # Ensure the course exists
+            if course_name not in course_ids:
+                # If course doesn't exist, use the main course name
+                course_name = "Formação em Cientista de Dados"
+                if course_name not in course_ids:
+                    continue
+
+            # Create module if it doesn't exist
+            module_key = f"{course_name}_{module_name}"
+            if module_key not in module_ids:
+                module_id = len(dim_modules) + 1
+                module_ids[module_key] = module_id
+
+                # Extract module number from the course_id (which is the module number in trilha.csv)
+                module_number = int(course_id)
+
+                dim_modules.append({
+                    "id_modulo": module_id,
+                    "nome_modulo": module_name,
+                    "ordem_modulo": module_number,
+                    "duracao_total_estimada": "00:00:00"
+                })
+
+            # Create a fato progresso record for the module
+            status_id = status_ids.get(status_geral, 1)
+            fato_progresso.append({
+                "id_curso": course_ids[course_name],
+                "id_modulo": module_ids[module_key],
+                "id_aula": 0,  # No specific lesson for module-level status
+                "id_status": status_id,
+                "nota_final": "",
+                "frequencia": ""
+            })
 
 def transform_ingles_durations(md_records: List[Dict[str, Any]]) -> Dict[str, pd.DataFrame]:
     """Transform ingles lesson durations from MD file"""

@@ -1,7 +1,7 @@
-descricao_status;id_status
-Aprovado;1
-Em andamento;2
-Aguardando início;3
-Concluído;4
-Indisponível;5
-Não disponível;6
+id_status;descricao_status
+1;Aprovado
+2;Em andamento
+3;Aguardando início
+4;Concluído
+5;Indisponível
+6;Não disponível
