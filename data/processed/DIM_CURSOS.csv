@@ -1,4 +1,4 @@
-trilha_origem;id_curso;tempo_prova;qtd_questoes;nota_minima;nome_curso
-Formação em Cientista de Dados;1;30 min;10;70%;Formação em Cientista de Dados
-Análise de Dados e TI Aplicado a Gestão;2;30 min;10;50%;Trilha Análise de Dados e TI Aplicado a Gestão
-Inglês Online;3;30 min;10;50%;Inglês
+nota_minima;id_curso;qtd_questoes;tempo_prova;nome_curso;trilha_origem
+70%;1;10;30 min;Formação em Cientista de Dados;Formação em Cientista de Dados
+50%;2;10;30 min;Trilha Análise de Dados e TI Aplicado a Gestão;Análise de Dados e TI Aplicado a Gestão
+50%;3;10;30 min;Inglês;Inglês Online

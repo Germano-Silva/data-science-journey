@@ -91,6 +91,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
     dim_modules = []
     dim_lessons = []
     dim_status = []
+    dim_tempo = []
     fato_progresso = []
 
     # Create status dimension
@@ -102,6 +103,17 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
             "descricao_status": status_desc
         })
         status_ids[status_desc] = status_id
+
+    # Create tempo dimension
+    tempo_ids = {}
+    default_tempo_id = 1
+    dim_tempo.append({
+        "id_tempo": default_tempo_id,
+        "data_inicio": "N/D",
+        "data_fim": "N/D",
+        "semestre_letivo": "Não definido"
+    })
+    tempo_ids["N/D"] = default_tempo_id
 
     # Process each record
     course_ids = {}
@@ -175,7 +187,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
         })
 
     # Process Cientista de Dados trilha.csv to create modules
-    process_cientista_dados_trilha(normalized_records, course_ids, module_ids, lesson_ids, dim_cursos, dim_modules, dim_lessons, fato_progresso, status_ids)
+    process_cientista_dados_trilha(normalized_records, course_ids, module_ids, lesson_ids, dim_cursos, dim_modules, dim_lessons, fato_progresso, status_ids, tempo_ids, dim_tempo)
 
     for record in normalized_records:
         # Handle modulos records first (from módulos CSV files)
@@ -207,6 +219,8 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
         module_name = record.get("module_name", "")
         lesson_name = record.get("lesson", "")
         status_desc = record.get("status", "")
+        start_date = record.get("start_date", "N/D")
+        end_date = record.get("end_date", "N/D")
 
         # Skip records without essential fields
         if not course_name or not lesson_name:
@@ -262,14 +276,28 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
                 "tipo_conteudo": "Aula"
             })
 
+        # Get or create tempo ID
+        tempo_key = f"{start_date}_{end_date}"
+        if tempo_key not in tempo_ids:
+            tempo_id = len(dim_tempo) + 1
+            tempo_ids[tempo_key] = tempo_id
+            dim_tempo.append({
+                "id_tempo": tempo_id,
+                "data_inicio": start_date,
+                "data_fim": end_date,
+                "semestre_letivo": "Não definido"
+            })
+
         # Create fato progresso record
         status_id = status_ids.get(status_desc, 1)
+        tempo_id = tempo_ids.get(tempo_key, default_tempo_id)
 
         fato_progresso.append({
             "id_curso": course_ids[course_name],
             "id_modulo": module_ids[module_key],
             "id_aula": lesson_ids[lesson_key],
             "id_status": status_id,
+            "id_tempo": tempo_id,
             "nota_final": "",
             "frequencia": ""
         })
@@ -279,6 +307,7 @@ def transform_course_data(csv_records: List[Dict[str, Any]]) -> Dict[str, pd.Dat
         "dim_modulos": create_dataframe_from_records(dim_modules),
         "dim_aulas": create_dataframe_from_records(dim_lessons),
         "dim_status": create_dataframe_from_records(dim_status),
+        "dim_tempo": create_dataframe_from_records(dim_tempo),
         "fato_progresso": create_dataframe_from_records(fato_progresso)
     }
 
@@ -312,7 +341,7 @@ def transform_modulos_data(modulos_records: List[Dict[str, Any]]) -> Dict[str, p
         "module_updates": module_updates
     }
 
-def process_cientista_dados_trilha(csv_records: List[Dict[str, Any]], course_ids: Dict[str, int], module_ids: Dict[str, int], lesson_ids: Dict[str, int], dim_cursos: List[Dict[str, Any]], dim_modules: List[Dict[str, Any]], dim_lessons: List[Dict[str, Any]], fato_progresso: List[Dict[str, Any]], status_ids: Dict[str, int]) -> None:
+def process_cientista_dados_trilha(csv_records: List[Dict[str, Any]], course_ids: Dict[str, int], module_ids: Dict[str, int], lesson_ids: Dict[str, int], dim_cursos: List[Dict[str, Any]], dim_modules: List[Dict[str, Any]], dim_lessons: List[Dict[str, Any]], fato_progresso: List[Dict[str, Any]], status_ids: Dict[str, int], tempo_ids: Dict[str, int], dim_tempo: List[Dict[str, Any]]) -> None:
     """Process Cientista de Dados trilha.csv file to create modules and lessons"""
     # Find records from the trilha.csv file
     trilha_records = [r for r in csv_records if "source_file" in r and "trilha.csv" in r.get("source_file", "").lower()]
@@ -324,6 +353,8 @@ def process_cientista_dados_trilha(csv_records: List[Dict[str, Any]], course_ids
             course_name = record["course_name"]
             module_name = record.get("module_name", "")
             status_geral = record.get("status_geral", "")
+            start_date = record.get("start_date", "N/D")
+            end_date = record.get("end_date", "N/D")
 
             # Ensure the course exists
             if course_name not in course_ids:
@@ -348,13 +379,27 @@ def process_cientista_dados_trilha(csv_records: List[Dict[str, Any]], course_ids
                     "duracao_total_estimada": "00:00:00"
                 })
 
+            # Get or create tempo ID
+            tempo_key = f"{start_date}_{end_date}"
+            if tempo_key not in tempo_ids:
+                tempo_id = len(dim_tempo) + 1
+                tempo_ids[tempo_key] = tempo_id
+                dim_tempo.append({
+                    "id_tempo": tempo_id,
+                    "data_inicio": start_date,
+                    "data_fim": end_date,
+                    "semestre_letivo": "Não definido"
+                })
+
             # Create a fato progresso record for the module
             status_id = status_ids.get(status_geral, 1)
+            tempo_id = tempo_ids.get(tempo_key, 1)
             fato_progresso.append({
                 "id_curso": course_ids[course_name],
                 "id_modulo": module_ids[module_key],
                 "id_aula": 0,  # No specific lesson for module-level status
                 "id_status": status_id,
+                "id_tempo": tempo_id,
                 "nota_final": "",
                 "frequencia": ""
             })

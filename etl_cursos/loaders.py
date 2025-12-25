@@ -24,6 +24,7 @@ def load_all_tables(tables: Dict[str, pd.DataFrame]) -> None:
         "dim_modulos": "DIM_MODULOS",
         "dim_aulas": "DIM_AULAS",
         "dim_status": "DIM_STATUS",
+        "dim_tempo": "DIM_TEMPO",
         "fato_progresso": "FATO_PROGRESSO"
     }
 
@@ -64,7 +65,7 @@ def validate_output_data(tables: Dict[str, pd.DataFrame]) -> bool:
     """Validate the output data structure"""
     logger.info("Validating output data...")
 
-    required_tables = ["dim_cursos", "dim_modulos", "dim_aulas", "dim_status", "fato_progresso"]
+    required_tables = ["dim_cursos", "dim_modulos", "dim_aulas", "dim_status", "dim_tempo", "fato_progresso"]
 
     for table_name in required_tables:
         if table_name not in tables:
@@ -93,8 +94,16 @@ def validate_output_data(tables: Dict[str, pd.DataFrame]) -> bool:
             logger.error("DIM_STATUS missing id_status column")
             return False
 
+        if table_name == "dim_tempo" and "id_tempo" not in df.columns:
+            logger.error("DIM_TEMPO missing id_tempo column")
+            return False
+
         if table_name == "fato_progresso" and "id_curso" not in df.columns:
             logger.error("FATO_PROGRESSO missing required columns")
+            return False
+
+        if table_name == "fato_progresso" and "id_tempo" not in df.columns:
+            logger.error("FATO_PROGRESSO missing id_tempo column")
             return False
 
     logger.info("Data validation passed successfully!")
