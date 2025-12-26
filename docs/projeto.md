@@ -128,7 +128,7 @@ data-science-journey/ ✅
 ### **FASE 1 (Esta semana):**
 1. ✅ ~~Configurar n8n + Telegram credencial~~ (em andamento)
 2. ⬜ Testar envio/recebimento de mensagens
-3. ⬜ Configurar Schedule Trigger (17:00 automático)
+3. ⬜ Configurar Schedule Trigger (19:00 automático)
 
 ### **FASE 2 (Próxima semana):**
 4. ⬜ Integrar com GitHub (cria issues automaticamente)
@@ -159,7 +159,7 @@ data-science-journey/ ✅
 ## **🎮 VISÃO DO SISTEMA FINAL:**
 
 ```
-📱 17:00 - Telegram: "Energia hoje?"
+📱 19:00 - Telegram: "Energia hoje?"
 🔋 Você: "4" 
 🤖 IA: "Sugestão: SQL aula 1 (25min)"
 💻 Você estuda
