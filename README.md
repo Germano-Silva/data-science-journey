@@ -24,28 +24,18 @@ pie title Distribuição de Aulas Concluídas
 ```mermaid
 gantt
     title Progresso dos Módulos
-    dateFormat  X
-    axisFormat %s
-    Integração da análise de dados na rotina administrativa (88%) :active, 0, 88
-    Restante : 0, 100
-    Empresas como Sistemas: Integração entre Dados, Processos e Tecnologia (0%) :active, 0, 0
-    Restante : 0, 100
-    Módulo 3 (100%) :active, 0, 100
-    Restante : 0, 100
-    8. Cibersegurança e proteção de dados empresariais (0%) :active, 0, 0
-    Restante : 0, 100
-    9. Utilização de SaaS para otimização de operações (0%) :active, 0, 0
-    Restante : 0, 100
-    1. Conceitos e Técnicas de Análise de Dados Aplicados à Gestão Empresarial (100%) :active, 0, 100
-    Restante : 0, 100
-    11. Empreendedorismo Tecnológico (0%) :active, 0, 0
-    Restante : 0, 100
-    Ferramentas de TI para coleta, organização e análise de dados (100%) :active, 0, 100
-    Restante : 0, 100
-    Projeto Final: Aplicação da Análise de Dados e TI na Gestão (0%) :active, 0, 0
-    Restante : 0, 100
-    6. Técnicas de análise financeira com ferramentas de TI (0%) :active, 0, 0
-    Restante : 0, 100
+    dateFormat  YYYY-MM-DD
+    section Módulos
+    Integração da análise de dados na rotina administrativa (88%) :active, 2025-01-01, 88d
+    Empresas como Sistemas- Integração entre Dados, Processos e Tecnologia (0%) :active, 2025-01-01, 0d
+    Módulo 3 (100%) :active, 2025-01-01, 100d
+    8. Cibersegurança e proteção de dados empresariais (0%) :active, 2025-01-01, 0d
+    9. Utilização de SaaS para otimização de operações (0%) :active, 2025-01-01, 0d
+    1. Conceitos e Técnicas de Análise de Dados Aplicados à Gestão Empresarial (100%) :active, 2025-01-01, 100d
+    11. Empreendedorismo Tecnológico (0%) :active, 2025-01-01, 0d
+    Ferramentas de TI para coleta, organização e análise de dados (100%) :active, 2025-01-01, 100d
+    Projeto Final- Aplicação da Análise de Dados e TI na Gestão (0%) :active, 2025-01-01, 0d
+    6. Técnicas de análise financeira com ferramentas de TI (0%) :active, 2025-01-01, 0d
 ```
 
 
@@ -282,7 +272,7 @@ data-science-journey/
 
 ---
 
-**🔄 Última atualização:** 27/12/2025 21:51 (Automático via Manus)
+**🔄 Última atualização:** 28/12/2025 03:38 (Automático via Manus)
 **🎯 Próxima revisão:** Final de Janeiro  
 **⚡ Status atual:** 🟢 Ativo e em progresso  
 **🔥 Motivação:** "Progresso, não perfeição. Consistência, não intensidade."
