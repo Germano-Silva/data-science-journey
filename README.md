@@ -4,13 +4,59 @@
 
 ## 📊 Progresso Geral das Trilhas
 
-| Trilha | Total Aulas | Concluídas | Progresso | Status |
-|--------|------------|------------|-----------|--------|
-| **🎓 Data Science Técnico** | 706 | 124 | **18%** | 🟡 Em andamento |
-| **💼 Gestão Empresarial** | 96 | 49 | **51%** | 🟢 Avançado |
-| **🌐 Inglês Técnico** | 225 | 7 | **3%** | 🔵 Iniciando |
 
-**Total Geral:** 1027 aulas • **Concluídas:** 180 (18%) • **Faltam:** 847
+<div align="center">
+  <img src="https://img.shields.io/badge/Progresso_Total-85.4%25-green?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/Aulas_Concluídas-274/321-brightgreen?style=for-the-badge&logo=book" />
+  <img src="https://img.shields.io/badge/Status-Ativo-orange?style=for-the-badge&logo=clock" />
+</div>
+
+
+```mermaid
+pie title Distribuição de Aulas Concluídas
+    "Formação em Cientista de Dados" : 0
+    "Análise de Dados e TI Aplicado a Gestão" : 49
+    "Inglês Online" : 225
+```
+
+
+### 📊 Detalhamento por Módulo (Progresso %)
+```mermaid
+gantt
+    title Progresso dos Módulos
+    dateFormat  X
+    axisFormat %s
+    Integração da análise de dados na rotina administrativa (88%) :active, 0, 88
+    Restante : 0, 100
+    Empresas como Sistemas: Integração entre Dados, Processos e Tecnologia (0%) :active, 0, 0
+    Restante : 0, 100
+    Módulo 3 (100%) :active, 0, 100
+    Restante : 0, 100
+    8. Cibersegurança e proteção de dados empresariais (0%) :active, 0, 0
+    Restante : 0, 100
+    9. Utilização de SaaS para otimização de operações (0%) :active, 0, 0
+    Restante : 0, 100
+    1. Conceitos e Técnicas de Análise de Dados Aplicados à Gestão Empresarial (100%) :active, 0, 100
+    Restante : 0, 100
+    11. Empreendedorismo Tecnológico (0%) :active, 0, 0
+    Restante : 0, 100
+    Ferramentas de TI para coleta, organização e análise de dados (100%) :active, 0, 100
+    Restante : 0, 100
+    Projeto Final: Aplicação da Análise de Dados e TI na Gestão (0%) :active, 0, 0
+    Restante : 0, 100
+    6. Técnicas de análise financeira com ferramentas de TI (0%) :active, 0, 0
+    Restante : 0, 100
+```
+
+
+| Trilha | Curso | Total Aulas | Concluídas | Progresso | Status |
+|--------|-------|------------|------------|-----------|--------|
+| **Formação em Cientista de Dados** | Formação em Cientista de Dados | 0 | 0 | **0%** | 🔵 Iniciando |
+| **Análise de Dados e TI Aplicado a Gestão** | Trilha Análise de Dados e TI Aplicado a Gestão | 96 | 49 | **51%** | 🟡 Em andamento |
+| **Inglês Online** | Inglês | 225 | 225 | **100%** | 🟢 Concluído |
+
+
+**Total Geral:** 321 aulas • **Concluídas:** 274 (85.4%) • **Faltam:** 47
 
 ## 🎓 TRILHA 1: FORMAÇÃO DATA SCIENCE (Hard Skills)
 *Competência técnica e construção de portfólio*
@@ -231,12 +277,12 @@ data-science-journey/
 ---
 
 <div align="center">
-*Jornada iniciada em Janeiro de 2024. Documentando de forma transparente minha evolução em três dimensões complementares: competência técnica, visão de negócios e comunicação global.*
+Jornada iniciada em Janeiro de 2024. Documentando de forma transparente minha evolução em três dimensões complementares: competência técnica, visão de negócios e comunicação global.
 </div>
 
 ---
 
-**🔄 Última atualização:** Janeiro de 2024  
+**🔄 Última atualização:** 27/12/2025 21:51 (Automático via Manus)
 **🎯 Próxima revisão:** Final de Janeiro  
 **⚡ Status atual:** 🟢 Ativo e em progresso  
 **🔥 Motivação:** "Progresso, não perfeição. Consistência, não intensidade."
