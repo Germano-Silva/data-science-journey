@@ -71,8 +71,8 @@ def generate_mermaid_charts(metrics, progresso, modulos):
         pie_chart += f'    "{trilha_nome}" : {m["Concluídas"]}\n'
     pie_chart += "```\n"
     
-    # Gráfico de Barras por Módulo (Top 5 módulos em andamento ou mais recentes)
-    bar_chart = "### 📊 Detalhamento por Módulo (Progresso %)\n```mermaid\ngantt\n    title Progresso dos Módulos\n    dateFormat  X\n    axisFormat %s\n"
+    # Gráfico de Barras por Módulo usando Gantt simplificado e compatível
+    bar_chart = "### 📊 Detalhamento por Módulo (Progresso %)\n```mermaid\ngantt\n    title Progresso dos Módulos\n    dateFormat  YYYY-MM-DD\n    section Módulos\n"
     
     # Calcular progresso por módulo
     mod_progress = progresso.groupby('id_modulo').agg(
@@ -85,10 +85,13 @@ def generate_mermaid_charts(metrics, progresso, modulos):
     
     for _, row in mod_progress.head(10).iterrows():
         nome = row['nome_modulo'] if pd.notnull(row['nome_modulo']) and row['nome_modulo'] != "" else f"Módulo {row['id_modulo']}"
+        # Limpar caracteres especiais que quebram o Mermaid
+        nome = nome.replace(':', '-').replace('(', '').replace(')', '')
         percent = int((row['concluidas'] / row['total'] * 100)) if row['total'] > 0 else 0
-        # Usar formato de Gantt para simular barras de progresso
-        bar_chart += f"    {nome} ({percent}%) :active, 0, {percent}\n"
-        bar_chart += f"    Restante : 0, 100\n"
+        
+        # Usar uma sintaxe de Gantt mais robusta: nome : status, data_inicio, data_fim
+        # Como queremos apenas barras de progresso, usamos datas fixas e o percentual no nome
+        bar_chart += f"    {nome} ({percent}%) :active, 2025-01-01, {percent}d\n"
         
     bar_chart += "```\n"
     return pie_chart, bar_chart
