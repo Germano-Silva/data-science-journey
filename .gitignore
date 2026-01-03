@@ -39,17 +39,6 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Data files (não versionar datasets grandes)
-data/raw/
-data/external/
-*.json
-*.parquet
-*.pkl
-*.joblib
-*.h5
-*.zip
-*.tar.gz
-
 # Secrets
 secrets.json
 credentials.json

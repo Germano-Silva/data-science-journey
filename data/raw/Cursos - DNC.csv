@@ -1,0 +1,735 @@
+Nome do Curso,Módulo,Nome do Módulo,Aula,Duração,Data Início,Data Fim,Status
+Cientista de Dados,1,Introdução a Análise de Dados,1. O que são Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,2. O que são Dados - Parte 2,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,3. Conceitos Importantes em Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,4. Conceitos Importantes em Dados Parte 02,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,5. Ferramentas que Utilizamos,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,6. Material complementar - Rotina de trabalho,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,7. Rotina de Trabalho na Área de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,8. Rotina de um Analista de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,9. Rotina de um Engenheiro de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,10. Rotina de um Cientista de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,11. Diferenças entre as Rotinas,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,12. Encerramento do módulo,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,13. Resolvendo problemas de negócio,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,14. Ambientação,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,15. Fazendo as primeiras análises,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,16. Fazendo as primeiras análises (v2),N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,17. Buscando Informações de Outras Tabelas,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,18. Buscando informações de outras tabelas (v2),N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,19. Análise Exploratória,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,20. Análise Gráfica Simples,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,21. Análises Dinâmicas,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,22. Filtragem Combinada,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,23. Montando um Dashboard,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,24. Imprimindo um Dashboard,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,25. Instalando o Power BI,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,26. Conhecendo o Power BI,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,27. Conhecendo o Excel - Base de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,28. Definindo Problema de Negócio,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,29. Introdução a Análise de Dados - Datasets,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,30. Puxando e Tratando Dados csv,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,31. Conectando Bases de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,32. Direções dos Filtros,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,33. Previsão de Faturamento,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,34. Mapa de Clientes,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,35. Análises de Melhores e Piores,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,36. Pesquisa de Satisfação,N/D,N/D,N/D,Concluído
+Cientista de Dados,1,Introdução a Análise de Dados,37. Projeto: Preveja os resultados de um e-commerce,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,1. Configurações Básicas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,2. EX 02 - Configurações Básicas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,3. Familiarizando-se com Excel,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,4. EX 03 - Familizarizando-se com Excel,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,5. Configurando para Impressão,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,6. EX 04 - Configurando para impressao,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,7. Hyperlink Externo e Interno,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,8. EX 05 - Hyperlink externo e interno,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,9. Atalhos do Excel + Colar Especial,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,10. EX 06 - Atalhos do excel colar especial,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,11. Criando Tabelas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,12. EX 07 - Criando Tabelas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,13. Funções e Fórmulas do Excel I,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,14. EX 09 - Funções e Fórmulas do Excel l,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,15. Funções e Fórmulas do Excel II,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,16. EX 10 - Funcoes e formulas do excel II,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,17. Função SE I,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,18. EX 11 - Função SE l,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,19. Função SE II,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,20. EX 12 - Função SE ll,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,21. Travamento de Células,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,22. EX 14 - Travamento de Celulas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,23. Gerenciador de Nomes,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,24. EX 15 - Gerenciador de nomes,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,25. Trabalhando com a Matemática,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,26. EX 16 - Trabalhando com a Matemática,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,27. Função Arrumar,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,28. EX 17 - Funça2o Arrumar,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,29. Funções Lógicas (e/ou),N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,30. EX 18 - Funções Lógicas e - ou,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,31. Função Cont.se e Cont.ses,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,32. EX 19 - Função Contse e Contses,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,33. Função Somase e Somases,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,34. EX 20 - Função Somase e Somases,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,35. Formatação Condicional Pré-definida,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,36. EX 23 - Formatação Condicional Pre Definida,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,37. Formatação Condicional Padrão,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,38. EX 24 - Fomatação Condicional Padrão,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,39. Formatação Condicional com Fórmulas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,40. EX 25 - Formatação Condicional com Fórmulas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,41. Guia de Formatação Condicional Avançada,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,42. Filtro Simples,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,43. EX 28 - Filtro Simples,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,"44. Congelar, Dividir Painéis e Agrupamento",N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,45. EX 29 - Congelar dividir paines e agrupamento,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,46. Remover Duplicatas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,47. EX 30 - Remover duplicatas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,48. Texto para Coluna,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,49. EX 31 - Texto para coluna,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,50. Gráfico Simples,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,51. EX 32 - Gráfico Simples,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,52. Atingir Metas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,53. EX 34 - Atingir metas,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,54. Validação de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,55. EX 37 - Validação de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,56. Proteção da Planilha,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,57. EX 38 - Proteção da Planilha,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,58. Procuras: Índice e Corresp,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,59. EX 42 - Procuras Indice e Corresp,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,60. Procv,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,61. EX 43 - Procv,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,62. Proch,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,63. EX 44 - Proch,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,64. Plus: Procx,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,65. EX 45 - Plus Procx,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,66. Super Exercício 1,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,67. Ex 39 - Super Exercício l,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,68. Super Exercício 2,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,69. Ex 40 - Plus Super Exercício ll,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,70. Subtotal,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,71. EX 47 - Subtotal,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,72. Filtro Avançado,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,73. Ex 48 - Filtro Avançado,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,74. Super Exercício III,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,75. EX 49 - Super Exercício lll,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,76. Tabela Dinâmica I,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,77. Ex 50 - Tabela Dinâmica l,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,78. Tabela Dinâmica II,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,79. EX 51 - Tabela Dinâmica ll,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,80. Gráfico Dinâmico,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,81. EX 52 - Gráfico Dinâmico,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,82. Segmentação de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,83. EX 53 - Segmentação de Dados,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,84. Gráficos Avançados,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,85. EX 54 - Gráficos Avançados,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,86. Pesquisa de Satisfação - Excel,N/D,N/D,N/D,Concluído
+Cientista de Dados,2,Excel Intermediário,87. Organize os dados de um negócio com Excel,N/D,N/D,N/D,Concluído
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,3,SQL para Análise de Dados,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,4,Jornada de Orientação de Carreira,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,5,Projeto Prático I,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,6,Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,7,Estatística com Python,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,8,Data Cleaning e Wrangling,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,9,Modelos de Classificação e Regressão,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,10,Preparatório para o Mercado,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,11,Modelos de Clusterização,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,12,Modelos de Nuvem e IA,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,13,Projeto Prático II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
+Cientista de Dados,14,Acelerador de Carreiras II,N/D,N/D,N/D,N/D,Pendente
